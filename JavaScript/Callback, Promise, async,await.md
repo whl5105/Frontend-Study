@@ -4,6 +4,8 @@
 
 자바스크립트는 기본적으로 동기적으로 동작합니다.
 
+<br/>
+
 ```
 console.log('1'); 
 console.log('2'); 
@@ -14,6 +16,7 @@ console.log('3');
 // 3
 // console.log함수가 끝나고 다음 console.log함수가 순서대로 실행되는것 예측할수있습니다.
 ```
+<br/>
 
 어떤 동작이 끝날때까지 기다렸다가 다음 동작을 순차적으로 하는것을 동기적이다 라고 할 수 있습니다.
 
@@ -33,9 +36,14 @@ console.log('3');
 
 병렬적으로 동작하는것을 비동기적이라 라고 할 수 있습니다.
 
+<br/>
+
 ## **Callback 함수**
 
 **매개변수로 전달하고 내부에서 실행되는 함수**
+
+<br/>
+
 
 ```
 function callback() {
@@ -52,6 +60,8 @@ fn(callback); // 콜백함수
 callback이라는 함수자체는 callback함수가 아니지만
 
 **매개변수로 전달하고 내부에서 함수를 호출된 시점의 함수를 Callback함수 라고합니다.**
+
+<br/>
 
 ```
 function goToSchool() {
@@ -90,11 +100,16 @@ arriveAtSchool_asis();
 
 비동기 함수를 동기 처리하기 위해 고안한 객체입니다.
 
+<br/>
+
+
 **비동기 작업이 완료된 이후에 다음 작업을 연결시켜 진행**할 수 있는 기능을 가지고 있습니다.
 
 작업 결과 따라 **성공 또는 실패를 리턴하며 결과 값을 전달** 받을 수 있습니다.
 
-#### **Promise의 3가지 상태 및 처리 흐름**
+<br/>
+
+### **Promise의 3가지 상태 및 처리 흐름**
 
 **pending(대기)** : 처리가 완료되지 않은 상태
 
@@ -102,9 +117,12 @@ arriveAtSchool_asis();
 
 **rejected(거부)** : 처리가 실패로 끝난 상태
 
-[##_Image|kage@n69PF/btr6tVLsCt7/kQzmDEaDVfvdbsq8RyO6ak/img.png|CDM|1.3|{"originWidth":801,"originHeight":297,"style":"alignLeft"}_##]
 
-#### **Promise 기본 예제**
+![image](https://user-images.githubusercontent.com/90454621/228187554-384107fb-73a5-4dd6-bfe0-46eee55ca69b.png)
+
+<br/>
+
+### **Promise 기본 예제**
 
 ```
 let myFirstPromise = new Promise((resolve, reject) => {
@@ -133,7 +151,9 @@ myFirstPromise.then((successMessage) => {
 -   catch()는 **rejected상태 일때** 생성한 프로미스 객체에서 인수로 전달한 reject가 실행됩니다.
 -   finally()는 성공 실패 여부와 상관없이 마지막에 실행됩니다.
 
-#### **Promise 고급 예제**
+<br/>
+
+### **Promise 고급 예제**
 
 Promise 객체는 **2가지의 콜백 함수**를 가집니다.
 
@@ -179,7 +199,9 @@ arriveAtSchool_tobe_adv()
 
 reject일 때는 then 메서드가 실행되지 않으므로 **성공, 실패를 각각 분리해서 처리**할 수 있게 됩니다.
 
-#### **Promise의 장점 : Promise Chaining**
+<br/>
+
+### **Promise의 장점 : Promise Chaining**
 
 ```
 const fectNumber = new Promise((resolve, reject) => {
@@ -205,7 +227,7 @@ fectNumber
 
 Promise 객체를 간결하고 간편하고 동기적으로 실행되는것 처럼 보이게 해 줍니다.
 
-#### **async 기본 예제**
+### **async 기본 예제**
 
 ```
 async function greet() {
@@ -221,7 +243,9 @@ function 앞에 async 키워드만 붙여주면 됩니다. async 함수에서는
 
 function 앞에 **async를 선언한 함수는 항상 Promise 객체를 반환**합니다. Promise가 아닌 값을 리턴하더라도 내부적으로 Promise로 감싸서 리턴합니다.
 
-#### **await 기본 예제**
+<br/>
+
+### **await 기본 예제**
 
 ```
 function greet() {
@@ -241,6 +265,9 @@ function greet() {
 async가 붙은 함수 내부에서만 사용 할수있습니다.
 
 await 키워드만 붙여주면 비동기 작업의 순차 처리가 **일반 순차 프로그래밍과 동일하게 가능**합니다.
+
+<br/>
+
 
 ```
 function fectNumber () { 
@@ -268,6 +295,10 @@ last().then(console.log)
 ```
 
 이런식으로 가독성이 좋게처리 할수 있고 콜백,then지옥에서 벗어날수 있습니다.
+
+<br/>
+<br/>
+
 
 참고
 
