@@ -13,6 +13,8 @@
   - [함수형프로그래밍이란?](./JavaScript/함수형프로그래밍이란.md)
 
   - [JSON이란](./JavaScript/JSON%EC%9D%B4%EB%9E%80.md)
+  
+  - [undefined 와 null](./JavaScript/undefined%20%EC%99%80%20null.md)
 
   <br>
 
@@ -21,3 +23,5 @@
   - [라이프사이클(LifeCycle)이란?](./React/라이프사이클(LifeCycle)이란.md)
 
   - [상태의 불변성](./React/%EC%83%81%ED%83%9C%EC%9D%98%20%EB%B6%88%EB%B3%80%EC%84%B1.md)
+  
+  - [Virtual DOM](./React/Virtual%20DOM.md)
