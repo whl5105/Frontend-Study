@@ -1,6 +1,6 @@
 # **실행 컨텍스트**
 
-자바스크립트 엔진은 코드를 실행하기 위해 변수(전역 변수, 매개 변수 등)와 변수의 스코프, this와 같은 정보들이 필요합니다.자
+자바스크립트 엔진은 코드를 실행하기 위해 변수(전역 변수, 매개 변수 등)와 변수의 스코프, this와 같은 정보들이 필요합니다.
 
 어떤 실행 컨텍스트가 활성화될 때, 자바스크립트 엔진은 해당 컨텍스트의 코드를 실행하는데 필요한 환경 정보들을 수집해서 실행 컨텍스트에 저장합니다.
 
@@ -596,6 +596,6 @@ GlobalLexicalEnvironment 내부에서는 BindingObject를 통해서 global의 co
 
 ---
 
-Reference : 모던 자바스크립트 Deep Dive,
+Reference : 모던 자바스크립트 Deep Dive,   
 원티드 프론트엔드 프리온보딩 인턴쉽
 https://pollen-port-115.notion.site/145ce592a18a40dabec08182ed6b4dbf
