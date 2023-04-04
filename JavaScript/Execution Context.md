@@ -142,9 +142,8 @@ const GlobalExecutionContext = {
 ```
 
 GlobalLexicalEnvironment는
-
-let, const로 선언한 변수를 관리하는 Declarative Environment Record
-그 외의 영역(var, 전역 함수, 빌트인 프로퍼티 등)을 관리하는 ObjectEnvironmentRecord
+let, const로 선언한 변수를 관리하는 Declarative Environment Record,   
+그 외의 영역(var, 전역 함수, 빌트인 프로퍼티 등)을 관리하는 ObjectEnvironmentRecord,   
 두 프로퍼티를 가지고 있습니다.
 
 ```javascript
