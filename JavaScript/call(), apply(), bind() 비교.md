@@ -143,7 +143,7 @@ example(1, 2, 3); // [1, 2, 3]
 
 <br/>
 
-call(), apply(), bind()를 사용하면 arguments에 배열 메서드를 쓸 수 있다.
+call(), apply()를 사용하면 arguments에 배열 메서드를 쓸 수 있다. (bind()는 x)
 
 <br/>
 
