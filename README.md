@@ -21,3 +21,8 @@
   - [라이프사이클(LifeCycle)이란?](./React/라이프사이클(LifeCycle)이란%3F.md)
 
   - [상태의 불변성](./React/%EC%83%81%ED%83%9C%EC%9D%98%20%EB%B6%88%EB%B3%80%EC%84%B1.md)
+
+  - [Context API](./React/contextAPI.md)
+
+- ### **브라우저 / 운영체제**
+  - [CORS란](./%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%2C%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/CORS%EB%9E%80.md)
