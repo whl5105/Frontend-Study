@@ -4,8 +4,6 @@
 
 ## **Web Storage (LocalStorage, SessionStorage)**
 
----
-
 - HTML5부터 제공하는 기능이다.
 
 - 특정 도메인과 관련된 데이터를 서버가 아니라 클라이언트 웹 브라우저에 저장한다.
@@ -19,8 +17,6 @@
 <br>
 
 ## **Web Storage가 필요한 이유 (쿠키와의 차이점)**
-
----
 
 <br>
 
@@ -46,8 +42,6 @@
 
 ## **Web Storage의 종류**
 
----
-
 <br>
 
 ### **LocalStorage**
@@ -67,7 +61,5 @@
 <br>
 
 ## **참고**
-
----
 
 - 브라우저의 저장소 https://velog.io/@design0728/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%A0%80%EC%9E%A5%EC%86%8C-LocalStorage-SessionStorage-Cookie
