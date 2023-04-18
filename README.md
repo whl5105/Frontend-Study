@@ -22,6 +22,8 @@
   
   - [식별자란?](./JavaScript/식별자란무엇인가.md)
 
+  - [Passed by Value,Passed by Reference차이](./JavaScript/Passed%20by%20Value,Passed%20by%20Reference.md)
+
   <br>
 
 - ### **React**
