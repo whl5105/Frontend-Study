@@ -8,6 +8,9 @@ Passed by Value : 실제 매개변수 값의 복사본이 메모리에 생성됨
 
 Passed by Reference : 메모리에 새로운 공간을 만들지 않고 대신 실제 매개변수의 참조/주소를 전달하므로 함수가 변수의 원래 값에 액세스 할 수 있습니다. 따라서 함수 내에서 변수의 값을 변경하면 원래 값도 변경됩니다.
 
+![image](https://user-images.githubusercontent.com/73993670/232743166-5c2043eb-90f9-4d53-a0e9-979547f2188f.png)
+
+
 ```js
 let num1 = 10;
 
@@ -26,6 +29,9 @@ value유형과 reference유형의 유일한 차이점입니다. 그러나 이것
 <br />
 
 ### Value Types are copied
+
+![image](https://user-images.githubusercontent.com/73993670/232743188-6d811786-eed5-4797-8b3c-c736cc03f0a6.png)
+
 
 ```js
 let num1 = 10;
@@ -46,6 +52,9 @@ num2의 값을 변경해도 num1에 영향을 주지 않습니다.
 <br />
 
 ### Reference Types are copied
+
+![image](https://user-images.githubusercontent.com/73993670/232743212-bc9a7f4d-e2fd-4cd6-81c5-7de2596d59a6.png)
+
 
 ```js
 let obj1 = {
