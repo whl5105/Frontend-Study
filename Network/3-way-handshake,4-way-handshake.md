@@ -11,6 +11,8 @@ TCP/IP 프로토콜을 이용해서 통신을 하는 응용프로그램이 데�
 <hr/>
 
 ### 3-way-handshake
+![image](https://user-images.githubusercontent.com/73993670/232481091-a14124b5-ef27-4fc9-adbb-09c61fa4b097.png)
+
 
 [State 정보]<br />
 CLOSED: 포트가 닫힌 상태 <br />
@@ -18,6 +20,8 @@ LISTEN: 포트가 열린 상태로 연결 요청 대기 중 <br />
 SYN_RECV: SYNC 요청을 받고 상대방의 응답을 기다리는 중 <br />
 ESTABLISHED: 포트 연결 상태<br />
 TIME-WAIT: Server로부터 FIN을 수신하더라도 일정시간(default: 240초)동안 세션을 남겨놓고 잉여 패킷을 기다리는 과정 <br />
+
+<br />
 
 **SYN(Synchronize Sequence Number)**
 1. 활성 오픈이되면 클라이언트가 서버에 SYN을 전송하여 수행합니다.<br />
@@ -42,6 +46,8 @@ TIME-WAIT: Server로부터 FIN을 수신하더라도 일정시간(default: 240�
 <hr/>
 
 ### 4-way-handshake
+![image](https://user-images.githubusercontent.com/73993670/232481128-0c2ac3c9-7add-44ec-b6d0-cf860e30a94d.png)
+
 
 **FIN**
 1. Client가 연결을 종료하겠다는 FIN플래그를 전송합니다.
@@ -60,3 +66,9 @@ TIME-WAIT: Server로부터 FIN을 수신하더라도 일정시간(default: 240�
 2. Client는 TIME-WAIT 상태로 변경됩니다.
     TIME-WAIT 시간동안(일부 공통 값은 30초, 1분 ~ 2분) 로컬 포트는 새 연결을 할 수 없습니다.
 3. TIME-WAIT 상태는 의도치않은 에러로 인해 연결이 데드락으로 빠지는 것을 방지 하며, 만약 에러로 인해 종료가 지연되다가 타임이 초과되면 CLOSED 상태로 변경됩니다.
+
+
+
+참고
+https://jeongkyun-it.tistory.com/180
+https://en.wikipedia.org/wiki/Transmission_Control_Protocol﻿
