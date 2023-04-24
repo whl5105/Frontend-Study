@@ -23,6 +23,8 @@
   - [식별자란?](./JavaScript/식별자란무엇인가.md)
 
   - [Passed by Value,Passed by Reference차이](./JavaScript/Passed%20by%20Value,Passed%20by%20Reference.md)
+  
+  - [Lazy loading](./JavaScript/Lazy%20loading.md)
 
   <br>
 
@@ -40,6 +42,7 @@
   
   - [Flux](./React/Flux.md)
   
+  - [리액트를 사용하는 이유](./React/리액트를%20사용하는%20이유.md)
 
 <br>
 
