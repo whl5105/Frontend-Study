@@ -24,7 +24,7 @@ TCP는 클라이언트와 서버가 연결된 상태에서 데이터를 주고�
     #2. Server -> Client : 연결 됐음
     #3. Client -> Server : ㅇㅇ ㄳ
     ```
-    - 4-way handshaking과정을 통해 연결을 해제
+    - 4-way handshaking과정을 통해 연결을 해제    
     ![image](https://user-images.githubusercontent.com/90454621/232653546-253d8544-e203-4567-abac-5d7ba65a5c24.png)
      ```
     #1. Client -> Server : 연결 끊어줘
