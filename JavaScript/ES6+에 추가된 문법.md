@@ -282,7 +282,6 @@ console.log(userProfile);
 console.log(getPosts);
 ```
 
-정말 멋지지 않습니까?!
 
 ### Promises(프로미스)
 
