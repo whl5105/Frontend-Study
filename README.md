@@ -27,6 +27,8 @@
   - [Lazy loading](./JavaScript/Lazy%20loading.md)
 
   - [interface와 type의 차이점](./JavaScript/TypeScript%EC%9D%98%20interface%EC%99%80%20type%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90.md)
+  
+  - [클로저](./JavaScript/Closure.md)
 
   <br>
 
@@ -65,6 +67,8 @@
   
 - ### **네트워크**
   - [TCP 3-way-handshake,4-way-handshake](./Network/3-way-handshake,4-way-handshake.md)
+  
+  - [HTTP, HTTPS](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%2C%20%EB%B0%B1%EC%97%94%EB%93%9C/HTTP%2C%20HTTPS.md)
 
 
   
