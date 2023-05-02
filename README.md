@@ -62,7 +62,10 @@
   - [GPU와CPU의 차이](./%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%2C%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/GPU%EC%99%80CPU%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
 
   - [TCP와 UDP의 차이점](./%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%2C%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/TCP%20%EC%99%80%20UDP%20%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90.md)
+  
   - [주소창에 google.com을 입력하면 일어나는 일](./%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%2C%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/주소창에%20google.com을%20입력하면%20일어나는%20일.md)
+  
+  - [크로스 브라우징](./%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%2C%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/Cross%20Browsing.md)
   
   <br>
   
@@ -75,3 +78,8 @@
 
 - ### **CSS**
   - [margin,padding 차이점](./CSS/margin%2Cpadding%20차이점.md)
+  
+<br>
+
+- ### **etc**
+  - [DDD,MSA](.etc/DDD%2CMSA.md)
