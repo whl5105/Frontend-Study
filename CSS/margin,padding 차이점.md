@@ -1,6 +1,8 @@
 
 ### CSS에서 margin과 padding이란?
 
+![Update css margin vs padding-2](https://user-images.githubusercontent.com/73993670/235619872-50248d6b-06ee-4112-b065-da25e5d7f3c3.jpeg)
+
 **Margin**
 - Object와 화면과의 여백(외부여백)
 - 주변 요소와 거리를 두기 위한 영역입니다.
@@ -31,6 +33,8 @@
 
 ### 주의 사항 
 - border 사이즈는 margin 과 padding 사이즈에 속하지 않기 때문에 정확한 의도한 content 사이즈보다 커질 수 있다. 
+![스크린샷 2023-05-02 오후 5 37 15](https://user-images.githubusercontent.com/73993670/235619845-db246622-16ed-4d0e-830e-0380af640b80.png)
+
 
 ```html
 <div>
