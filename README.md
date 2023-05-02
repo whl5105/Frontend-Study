@@ -23,6 +23,12 @@
   - [식별자란?](./JavaScript/식별자란무엇인가.md)
 
   - [Passed by Value,Passed by Reference차이](./JavaScript/Passed%20by%20Value,Passed%20by%20Reference.md)
+  
+  - [Lazy loading](./JavaScript/Lazy%20loading.md)
+
+  - [interface와 type의 차이점](./JavaScript/TypeScript%EC%9D%98%20interface%EC%99%80%20type%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90.md)
+  
+  - [클로저](./JavaScript/Closure.md)
 
   <br>
 
@@ -40,6 +46,7 @@
   
   - [Flux](./React/Flux.md)
   
+  - [리액트를 사용하는 이유](./React/리액트를%20사용하는%20이유.md)
 
 <br>
 
@@ -54,12 +61,14 @@
   
   - [GPU와CPU의 차이](./%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%2C%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/GPU%EC%99%80CPU%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
 
-  
+  - [TCP와 UDP의 차이점](./%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%2C%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/TCP%20%EC%99%80%20UDP%20%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90.md)
   
   <br>
   
 - ### **네트워크**
   - [TCP 3-way-handshake,4-way-handshake](./Network/3-way-handshake,4-way-handshake.md)
+  
+  - [HTTP, HTTPS](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%2C%20%EB%B0%B1%EC%97%94%EB%93%9C/HTTP%2C%20HTTPS.md)
 
 
   
