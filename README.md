@@ -85,5 +85,5 @@
 <br>
 
 - ### **etc**
-  - [DDD,MSA](.etc/DDD%2CMSA.md)
+  - [DDD,MSA](./etc/DDD%2CMSA.md)
 
