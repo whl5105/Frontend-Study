@@ -1,8 +1,8 @@
-# Browser에 www.google.com을 검색하면 어떤 일이 일어날까?
+# Browser에 <span>www</span>.google.com을 검색하면 어떤 일이 일어날까?
 
-## 1. 브라우저의 주소 표시줄에 www.google.com을 입력합니다.
+## 1. 브라우저의 주소 표시줄에 <span>www</span>.google.com을 입력합니다.
 
-## 2. 브라우저는 DNS 레코드의 캐시를 확인하여 www.google.com의 해당 IP 주소를 찾습니다.
+## 2. 브라우저는 DNS 레코드의 캐시를 확인하여 <span>www</span>.google.com의 해당 IP 주소를 찾습니다.
 DNS는 Domain Name System의 약자로, 웹 사이트의 이름(URL)과 링크된 특정 IP 주소를 유지 관리하는 데이터베이스입니다.   
 DNS 상에서 도메인에 관한 설정을 하기 위해 사용되는 일련의 문자들을 DNS 레코드라고 합니다.   
 인터넷의 모든 단일 URL에는 고유한 IP 주소가 할당되어 있습니다.   
@@ -11,7 +11,7 @@ IP 주소는 우리가 액세스를 요청하는 웹사이트의 서버를 호�
 DNS의 주요 목적은 인간 친화적인 탐색입니다.   
 `ex)`
 ```
-www.google.com
+<span>www</span>.google.com
 or
 142.250.207.110
 ```
@@ -27,8 +27,8 @@ DNS 레코드를 찾기 위해 브라우저는 4개의 캐시를 확인합니다
 
 - 넷째, ISP 캐시를 확인합니다. 모든 단계가 실패하면 브라우저는 ISP로 이동합니다. 귀하의 ISP는 DNS 레코드 캐시를 포함하는 자체 DNS 서버를 유지하며, 브라우저는 귀하가 요청한 URL을 찾을 수 있는 마지막 희망으로 이를 확인합니다.
 
-## 3. 요청한 URL이 캐시에 없으면 ISP의 DNS 서버가 DNS 쿼리를 시작하여  www.google.com을 호스팅하는 서버의 IP 주소를 찾습니다.
-앞서 언급했듯이 내 컴퓨터가 www.google.com을 호스팅하는 서버에 연결하려면 www.google.com의 IP 주소가 필요합니다.   
+## 3. 요청한 URL이 캐시에 없으면 ISP의 DNS 서버가 DNS 쿼리를 시작하여  <span>www</span>.google.com을 호스팅하는 서버의 IP 주소를 찾습니다.
+앞서 언급했듯이 내 컴퓨터가 <span>www</span>.google.com을 호스팅하는 서버에 연결하려면 <span>www</span>.google.com의 IP 주소가 필요합니다.   
 DNS 쿼리의 목적은 웹사이트의 올바른 IP 주소를 찾을 때까지 인터넷에서 여러 DNS 서버를 검색하는 것입니다.   
 이러한 유형의 검색을 ***재귀 검색***이라고 합니다.   
 필요한 IP 주소를 찾거나 찾을 수 없다는 오류 응답을 반환할 때까지 검색이 DNS 서버에서 DNS 서버로 반복적으로 계속되기 때문입니다.
@@ -42,10 +42,10 @@ DNS 쿼리의 목적은 웹사이트의 올바른 IP 주소를 찾을 때까지 
 오늘날 접하는 많은 웹사이트 URL에는 3단계 도메인, 2단계 도메인 및 최상위 도메인이 포함되어 있습니다.   
 이러한 각 단계에는 DNS 조회 프로세스 중에 쿼리되는 자체 name 서버가 포함되어 있습니다.
 
-***www.google.com의 경우, 처음에 DNS recursor가 root name server에 연결합니다.   
+***<span>www</span>.google.com의 경우, 처음에 DNS recursor가 root name server에 연결합니다.   
 root name 서버는 .com 도메인 name server로 리다이렉트합니다.   
 .com name server는 google.com name server로 라디아렉트합니다.   
-google.com name server는 DNS 레코드에서 www.google.com에 매칭되는 IP 주소를 찾고 DNS recursor로 반환하고 이를 다시 브라우저로 보냅니다.***
+google.com name server는 DNS 레코드에서 <span>www</span>.google.com에 매칭되는 IP 주소를 찾고 DNS recursor로 반환하고 이를 다시 브라우저로 보냅니다.***
 
 이러한 요청은 요청 내용 및 요청 대상 IP 주소(DNS 리커서의 IP 주소)와 같은 정보가 포함된 작은 데이터 패킷을 사용하여 전송됩니다.   
 이러한 패킷은 올바른 DNS 서버에 도달하기 전에 클라이언트와 서버 간에 여러 네트워킹 장비를 통해 이동합니다.   
@@ -69,7 +69,7 @@ google.com name server는 DNS 레코드에서 www.google.com에 매칭되는 IP 
 ## 5. 브라우저가 웹 서버에 HTTP 요청을 보냅니다.
 TCP로 연결이 되었다면, 데이터를 전송합니다.
 
-클라이언트의 브라우저는 GET 요청을 통해 서버에게 www.google.com 웹페이지를 요구합니다.   
+클라이언트의 브라우저는 GET 요청을 통해 서버에게 <span>www</span>.google.com 웹페이지를 요구합니다.   
 요청을 할 때 비밀 자료들을 포함하던지, form을 제출하는 상황에서는 POST 요청을 사용할 수도 있습니다.   
 
 이 요청을 할 때 다른 부가적인 정보들도 함께 전달이 됩니다.
@@ -117,7 +117,7 @@ HTML기본 틀, 뼈대 스켈레톤을 렌더링합니다.
 그런 다음 HTML 태그를 확인하고 이미지, CSS 스타일시트, JavaScript 파일 등과 같은 웹 페이지의 추가 요소에 대한 GET 요청을 보냅니다.   
 이러한 정적 파일은 브라우저에 의해 캐싱되므로 다음에 페이지를 다시 방문할 때, 서버로부터 다시 불러오지 않습니다.
    
-결국에는 브라우저에 www.google.com이 표시되는 것을 볼 수 있습니다.
+결국에는 브라우저에 <span>www</span>.google.com이 표시되는 것을 볼 수 있습니다.
 
 ## 참고
 https://medium.com/@maneesa/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a
