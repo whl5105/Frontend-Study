@@ -66,7 +66,7 @@
   <br>
   
 - ### **네트워크**
-  - [TCP 3-way-handshake,4-way-handshake](./Network/3-way-handshake,4-way-handshake.md)
+  - [TCP 3-way-handshake,4-way-handshake](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%2C%20%EB%B0%B1%EC%97%94%EB%93%9C/3-way-handshake,4-way-handshake.md)
   
   - [HTTP, HTTPS](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%2C%20%EB%B0%B1%EC%97%94%EB%93%9C/HTTP%2C%20HTTPS.md)
 
