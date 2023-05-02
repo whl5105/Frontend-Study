@@ -27,6 +27,8 @@
   - [Lazy loading](./JavaScript/Lazy%20loading.md)
 
   - [interface와 type의 차이점](./JavaScript/TypeScript%EC%9D%98%20interface%EC%99%80%20type%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90.md)
+  
+  - [클로저](./JavaScript/Closure.md)
 
   <br>
 
@@ -60,14 +62,19 @@
   - [GPU와CPU의 차이](./%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%2C%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/GPU%EC%99%80CPU%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
 
   - [TCP와 UDP의 차이점](./%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%2C%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/TCP%20%EC%99%80%20UDP%20%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90.md)
+  - [주소창에 google.com을 입력하면 일어나는 일](./%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%2C%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/주소창에%20google.com을%20입력하면%20일어나는%20일.md)
   
   - [Browser에 www.google.com을 검색하면 어떤 일이 일어날까](./%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%2C%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/Browser%EC%97%90%20www.google.com%EC%9D%84%20%EA%B2%80%EC%83%89%ED%95%98%EB%A9%B4%20%EC%96%B4%EB%96%A4%20%EC%9D%BC%EC%9D%B4%20%EC%9D%BC%EC%96%B4%EB%82%A0%EA%B9%8C.md)
-
   <br>
   
 - ### **네트워크**
-  - [TCP 3-way-handshake,4-way-handshake](./Network/3-way-handshake,4-way-handshake.md)
+  - [TCP 3-way-handshake,4-way-handshake](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%2C%20%EB%B0%B1%EC%97%94%EB%93%9C/3-way-handshake,4-way-handshake.md)
+  
+  - [HTTP, HTTPS](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%2C%20%EB%B0%B1%EC%97%94%EB%93%9C/HTTP%2C%20HTTPS.md)
 
+<br>
 
 - ### **CSS**
+  - [margin,padding 차이점](./CSS/margin%2Cpadding%20차이점.md)
+
   - [Display](./CSS/Display.md)
