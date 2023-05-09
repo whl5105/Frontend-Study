@@ -30,6 +30,10 @@
   
   - [클로저](./JavaScript/Closure.md)
 
+  - [null, undefined, undeclared, NaN.md](./JavaScript/null%2C%20undefined%2C%20undeclared%2C%20NaN.md)
+  
+  - [익명함수](./JavaScript/%EC%9D%B5%EB%AA%85%ED%95%A8%EC%88%98.md) 
+
   <br>
 
 - ### **React**
@@ -47,6 +51,8 @@
   - [Flux](./React/Flux.md)
   
   - [리액트를 사용하는 이유](./React/리액트를%20사용하는%20이유.md)
+  
+  - [useMemo, useCallback](./React/useMemo%2C%20useCallback.md)
 
 <br>
 
@@ -62,19 +68,34 @@
   - [GPU와CPU의 차이](./%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%2C%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/GPU%EC%99%80CPU%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
 
   - [TCP와 UDP의 차이점](./%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%2C%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/TCP%20%EC%99%80%20UDP%20%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90.md)
-  - [주소창에 google.com을 입력하면 일어나는 일](./%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%2C%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/주소창에%20google.com을%20입력하면%20일어나는%20일.md)
-  
+ 
   - [Browser에 www.google.com을 검색하면 어떤 일이 일어날까](./%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%2C%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/Browser%EC%97%90%20www.google.com%EC%9D%84%20%EA%B2%80%EC%83%89%ED%95%98%EB%A9%B4%20%EC%96%B4%EB%96%A4%20%EC%9D%BC%EC%9D%B4%20%EC%9D%BC%EC%96%B4%EB%82%A0%EA%B9%8C.md)
+
+  - [크로스 브라우징](./%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%2C%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/Cross%20Browsing.md)
+ 
   <br>
   
-- ### **네트워크**
+- ### **네트워크/백엔드**
   - [TCP 3-way-handshake,4-way-handshake](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%2C%20%EB%B0%B1%EC%97%94%EB%93%9C/3-way-handshake,4-way-handshake.md)
   
   - [HTTP, HTTPS](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%2C%20%EB%B0%B1%EC%97%94%EB%93%9C/HTTP%2C%20HTTPS.md)
+
+  - [REST API ,RESTful API](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%2C%20%EB%B0%B1%EC%97%94%EB%93%9C/REST%20API%20%2CRESTful%20API.md)
 
 <br>
 
 - ### **CSS**
   - [margin,padding 차이점](./CSS/margin%2Cpadding%20차이점.md)
-
   - [Display](./CSS/Display.md)
+
+<br>
+
+- ### **자료구조 / 알고리즘**
+  - [배열과 연결 리스트 비교](./자료구조%2C%20알고리즘/배열과%20연결%20리스트%20비교.md)
+  - [스택과 큐 비교](./자료구조%2C%20알고리즘/스택과%20큐%20비교.md)
+  
+<br>
+
+- ### **etc**
+  - [DDD,MSA](./etc/DDD%2CMSA.md)
+
