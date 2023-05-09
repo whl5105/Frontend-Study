@@ -54,6 +54,8 @@
   
   - [useMemo, useCallback](./React/useMemo%2C%20useCallback.md)
 
+  - [제어 컴포넌트와 비제어 컴포넌트의 차이점](./React/%EC%A0%9C%EC%96%B4%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%99%80%20%EB%B9%84%EC%A0%9C%EC%96%B4%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90.md)
+
 <br>
 
 - ### **브라우저 / 운영체제**
@@ -86,8 +88,11 @@
 
 - ### **CSS**
   - [margin,padding 차이점](./CSS/margin%2Cpadding%20차이점.md)
+
   - [Display](./CSS/Display.md)
 
+  - [Cascading](./CSS/Cascading.md)
+  
 <br>
 
 - ### **자료구조 / 알고리즘**
