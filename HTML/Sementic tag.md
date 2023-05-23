@@ -15,6 +15,9 @@
 또한 태그를 기반우으로 페이지 내 검색 키워드의 선순위를 판단합니다. 따라서 제목은 h1, 중요한 단어는 strong 등 사용하는  의미에 맞는 올바른 태그르 사용하는 것이 중요합니다.
 
 ### Sementic tag 예시
+![다운로드](https://github.com/whl5105/Frontend-Study/assets/73993670/14c9e2d3-ac73-485c-802a-b67a01689258)
+![다운로드](https://github.com/whl5105/Frontend-Study/assets/73993670/e4e9e1cb-7b97-4e58-8a86-34605588d6d1)
+
 
 ```html
 <body>
