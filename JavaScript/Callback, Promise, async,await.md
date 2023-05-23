@@ -6,7 +6,7 @@
 
 <br/>
 
-```
+```javascript
 console.log('1'); 
 console.log('2'); 
 console.log('3'); 
@@ -20,7 +20,7 @@ console.log('3');
 
 어떤 동작이 끝날때까지 기다렸다가 다음 동작을 순차적으로 하는것을 동기적이다 라고 할 수 있습니다.
 
-```
+```javascript
 console.log('1'); 
 setTimeout(function() {
 	console.log('2'); 
@@ -38,14 +38,14 @@ console.log('3');
 
 <br/>
 
-## **Callback 함수**
+# **Callback 함수**
 
 **매개변수로 전달하고 내부에서 실행되는 함수**
 
 <br/>
 
 
-```
+```javascript
 function callback() {
   console.log('콜 해줘');
 }
@@ -63,7 +63,7 @@ callback이라는 함수자체는 callback함수가 아니지만
 
 <br/>
 
-```
+```javascript
 function goToSchool() {
   console.log("학교에 갑니다.");
 }
@@ -96,7 +96,9 @@ arriveAtSchool_asis();
 
 비동기적인 작업을 수행하기 위해 콜백함수를 익명함수로 전달하는 과정에서 생기는 콜백지옥을 **Promise, async/await** 등을 사용해 방지할 수 있습니다.
 
-## **Promise**
+<br>
+
+# **Promise**
 
 비동기 함수를 동기 처리하기 위해 고안한 객체입니다.
 
@@ -124,7 +126,7 @@ arriveAtSchool_asis();
 
 ### **Promise 기본 예제**
 
-```
+```javascript
 let myFirstPromise = new Promise((resolve, reject) => {
   // 우리가 수행한 비동기 작업이 성공한 경우 resolve(...)를 호출하고, 
   // 실패한 경우 reject(...)를 호출합니다.
@@ -159,7 +161,7 @@ Promise 객체는 **2가지의 콜백 함수**를 가집니다.
 
 하나는 앞서 언급한 **fulfilled 상태에서 실행되는 resolve 함수**이고 다른 하나는 **rejected 상태일 경우 실행되는 reject 함수**입니다.
 
-```
+```javascript
 function goToSchool() {
   console.log("학교에 갑니다.");
 }
@@ -203,7 +205,7 @@ reject일 때는 then 메서드가 실행되지 않으므로 **성공, 실패�
 
 ### **Promise의 장점 : Promise Chaining**
 
-```
+```javascript
 const fectNumber = new Promise((resolve, reject) => {
   setTimeout(() => resolve(1), 1000);
 });
@@ -223,13 +225,15 @@ fectNumber
 
 하지만 이런방식은 콜백지옥과 유사해집니다.
 
-## **async/await**
+<br>
+
+# **async/await**
 
 Promise 객체를 간결하고 간편하고 동기적으로 실행되는것 처럼 보이게 해 줍니다.
 
 ### **async 기본 예제**
 
-```
+```javascript
 async function greet() {
     return 'hello';
 } // 해당 스코프는 promise입니다.
@@ -247,7 +251,7 @@ function 앞에 **async를 선언한 함수는 항상 Promise 객체를 반환*
 
 ### **await 기본 예제**
 
-```
+```javascript
 function greet() {
     return new Promise(function(resolve){
         setTimeout(function() {
@@ -269,7 +273,7 @@ await 키워드만 붙여주면 비동기 작업의 순차 처리가 **일반 �
 <br/>
 
 
-```
+```javascript
 function fectNumber () { 
   return new Promise(resolve => {
    setTimeout(() => resolve(1), 1000);
@@ -297,8 +301,30 @@ last().then(console.log)
 이런식으로 가독성이 좋게처리 할수 있고 콜백,then지옥에서 벗어날수 있습니다.
 
 <br/>
-<br/>
 
+## 💡 setState()는 await와 사용이 가능할까?
+setState에는 await를 사용할 수 없습니다.
+
+setState 메소드는 React의 클래스형 컴포넌트에서 사용되는 함수로, 컴포넌트의 상태(state)를 업데이트할 때 사용됩니다.
+setState 메소드는 일반적으로 비동기로 작동하지만, await는 비동기 작업을 동기적으로 처리하기 위해 사용됩니다.
+
+async / await 의 기반은 promise 입니다. async 함수는 promise를 반환하고 promise가 함수로부터 반환할 값을 resolve 합니다.
+
+setState는 promise를 리턴하지 않기에 await와 함께 사용할 수 없습니다.
+
+<br>
+
+### 그렇다면 setState는 어떤식으로 작동할까요?
+setState는 componentDidUpdate 나 setState 콜백을 사용해야 원하는 결과를 얻을 수 있습니다.
+
+```javascript
+this.setState({ myCabinet: "beer"});
+console.log(this.state.myCabinet) // Not beer
+```
+
+```javascript
+this.setState({ myCabinet: "beer"}, () => console.log(this.state.myCabinet)); // beer
+```
 
 참고
 
@@ -320,3 +346,5 @@ async/await 
 [https://www.youtube.com/watch?v=aoQSOZfz3vQ&t=611s](https://www.youtube.com/watch?v=aoQSOZfz3vQ&t=611s) 
 
 [https://www.youtube.com/watch?v=1z5bU-CTVsQ](https://www.youtube.com/watch?v=1z5bU-CTVsQ)
+
+[setState()는 await와 사용이 가능할까?](https://dodokim.medium.com/setstate-%EB%8A%94-await%EC%99%80-%EC%82%AC%EC%9A%A9%EC%9D%B4-%EA%B0%80%EB%8A%A5%ED%95%A0%EA%B9%8C-7b02581f6df4)
